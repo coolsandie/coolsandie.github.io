@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Coolsandie Online</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>COOL<a href="index.html">SANDIE</a>ONLINE</h1></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="index.html"><u>Home</u></a></li>
+          <li class="current"><a href="works.html"><u>My Works</u></a></li>
+          <li><a href="http://www.coolsandie.blogspot.in"><u>Blog</u></a></li>
+		  <li><a href="about.html"><u>About</u></a></li>
+        </ul>
+      </nav>
+    </header>
+		<div id="site_content">
+		<div id="content"> 
+         <h1><u>My Works</u></h1>
+		 <p></p>
+		 <p>Hi friends, so here are my works which have been posted to XDA-Developers forum:</p>
+		   <ul>
+		   <li><a href="http://forum.xda-developers.com/showthread.php?t=1722609">Extending HelloWorld App with a 'Toast' message</a> is a Tutorial
+		   mainly intended for looking into some other concepts like GUI of Android development. It actually throws a toast message when a button is clicked.
+		   The toast message is anything but the text entered into the textbox.</li>
+		   <br>
+		   <li><a href="http://forum.xda-developers.com/showthread.php?t=1732939">Create your first Widget step-by-step</a> is a Tutorial
+		   on Creating Widgets (Widget that displays current time) and how do they work on an Android device. It actually dives into some Java coding also with
+		   XML layout modifications.</li>
+		   <br>
+		   <li><a href="http://forum.xda-developers.com/showthread.php?t=1759211">How to set icons for Android apps</a> is a pretty easy Guide on
+		   setting your images in the correct resolution supporting multiple devices of various screen sizes.</li>
+		   <br>
+		   <li><a href="http://forum.xda-developers.com/showthread.php?t=2124002">List of all Open-Source Android apps</a> is a huge list spanning all of
+		   the Android apps which are open sourced and are published in the Google Play Store or otherwise. A short description with links to source code
+		   makes it easy to browse/fork/making changes to the app convenient to the fresh developers.</li>
+		   </ul>
+		   <br>
+        <p><center><img src="images/banner.png"></img></center></p>
+		<br>
+		<br>
+        </div>
+    </div> 
+    
+	<footer>
+      <p><a href="index.html">Home</a> | <a href="https://www.twitter.com/coolsandie">Twitter</a> | <a href="https://www.github.com/coolsandie">Github</a>
+      <p>&copy; 2013 Sandeep. All Rights Reserved.</p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>
